@@ -41,7 +41,7 @@ It introduces basic CSS concepts, including styling, layout using Flexbox, and r
 
 ## 📎 GitHub Repo
 
-[GitHub Repository: alx_html_css](https://github.com/YOUR_USERNAME/alx_html_css)
+[GitHub Repository: alx_html_css](https://github.com/abdulrahman-elhanafy/alx_html_css)
 
 ---
 
