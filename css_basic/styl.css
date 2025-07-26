@@ -97,12 +97,21 @@ aside p{
     border-radius: 10px;
 }
 
+table ,th ,td{
+    border:  1px solid #1d3557;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
 footer{
     text-align: center;
     padding: 10px ;
     background-color: #1d3557;
     color: white;
 }
+
 footer p a{
     color: rgb(245, 198, 112);
     text-decoration: none;
@@ -110,6 +119,7 @@ footer p a{
     font-weight: 600;
     transition: 50ms;
 }
+
 footer p a:hover{
     color: rgb(221, 158, 41);
     text-decoration: none;
