@@ -222,6 +222,74 @@ main{
     margin-bottom: 0;
 }
 
+/* VIDEOS SECTION */
+.videos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px 20px;
+    justify-content: center;
+    height:auto;
+}
+.videos h2{
+    font-family: "Source Sans 3", sans-serif;
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.videos h2 span{
+    color: #C271FF;
+}
+
+.videos-container{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.video-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:first baseline;
+}
+.video-block h3{
+    font-family: "Source Sans 3", sans-serif;
+}
+.video-block p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+}
+.main-img{
+    width: 300px;
+}
+.author-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.author-block img{
+    width: 50px;
+}
+.author-block h4{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.rating-block{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 100px;
+    font-family: "Source Sans 3", sans-serif;
+}
 
 /* Membership Section */
 
@@ -297,4 +365,33 @@ main{
     display: flex;
     flex-direction: column;
     width: 350px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    background-color: #071629;
+    padding: 100px 0 50px 0;
+}
+.footer-row-block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-links i{
+    font-size: 30px;
+    width: 50px;
+    color: white;
+}
+footer p{
+    font-family: "Source Sans 3", sans-serif;
+    color: #919191;
+    letter-spacing: 2px;
 }
