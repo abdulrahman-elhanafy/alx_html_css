@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+    background: #4b4b4b;
+}
+
+header{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.logo{
+    padding: 5px 10px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    font-family: "Source Sans 3", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 20px;
+    color: #FFFFFF;
+    transition: 500ms;
+}
+
+header nav ul li a:hover{
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 20px;
+    color: #967777;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* margin-top: 20px; */
+    background-image: url(./images/Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    color: white;
+}
+.banner .hero-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .hero-content h1{
+    font-size: 130px;
+    font-family: "Source Sans 3", sans-serif;
+    letter-spacing: 10px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+.banner .hero-banner-tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.banner .hero-banner-tags p{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0 57px;
+    margin-top: 20px;
+}
+.btn-register{
+    all: unset;
+    box-shadow: 0.3em 0.3em 1em #0000008f;
+    margin-top: 20px;
+    display: inline-block;
+    width: fit-content;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 22px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    transition: 400ms;
+}
+.btn-register:hover{
+    all: unset;
+    box-shadow: 0.3em 0.3em 1em #0000008f;
+    margin-top: 20px;
+    display: inline-block;
+    width: fit-content;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #9557c5;
+    color: white;
+    border-radius: 22px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.mentors-banner{
+    margin-top: 140px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentors-banner h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 32px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mentors-banner h2 span{
+    color: #550096;
+}
+.mentors-list{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 140px;
+}
+
+.mentors-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image2{
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentors-card h4{
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.mentors-card p{
+    font-family: "Source Sans 3", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    background-size:auto
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 96px ;
+}
+
+.quote-info{
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+}
+.quote-info h3{
+    font-weight: 400;
+}
+.quote-info h4{
+    margin-bottom: 0;
+}
