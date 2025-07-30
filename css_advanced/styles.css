@@ -75,6 +75,7 @@ main{
     color: white;
 }
 .banner .hero-content{
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -94,6 +95,7 @@ main{
     justify-content: center;
     position: relative;
     bottom: 20px;
+    margin: 20px 0;
 }
 
 .banner .hero-banner-tags p{
@@ -134,7 +136,7 @@ main{
 }
 
 .mentors-banner{
-    margin-top: 140px;
+    margin-top: 120px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
