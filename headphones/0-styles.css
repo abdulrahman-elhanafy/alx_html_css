@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px 40px;
-  background: url(./images/headphones_hero_1.jpg) no-repeat center/cover;
+  background: url(./Header-Section-img/headphones_hero_1.jpg) no-repeat center/cover;
   min-height: 100vh;
 }
 .nav {
